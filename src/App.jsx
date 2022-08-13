@@ -1,9 +1,5 @@
 function App() {
-  return (
-    <div >
-      Rumours
-    </div>
-  );
+  return <div>Rumours</div>
 }
 
-export default App;
+export default App
