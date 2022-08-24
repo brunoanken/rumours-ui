@@ -1,5 +1,7 @@
+import { AppRoutes } from "./router/routes"
+
 function App() {
-  return <div>Rumours</div>
+  return <AppRoutes />
 }
 
 export default App
