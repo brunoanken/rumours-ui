@@ -24,7 +24,7 @@ export const postLogin = async (email, password) => {
 
 		const err = await result.text()
 
-		return { error: err }
+		return { error: err || "unknown error"}
 	} catch (err) {
 		return { error: 'Bad connection' }
 	}

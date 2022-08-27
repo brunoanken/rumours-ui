@@ -13,7 +13,7 @@ export const Login = () => {
   const submit = async () => {
     const { error } = await postLogin(email(), password())
 
-    if (!error) {
+    if (error) {
       window.alert("Incorrect email or password.")
       return
     }
